@@ -1,5 +1,20 @@
 # Backend — candidate submission API
 
+## Repository
+
+Standalone backend for this assessment:
+
+**https://github.com/ashishu703/xiacom_assesment_backend.git**
+
+```bash
+git clone https://github.com/ashishu703/xiacom_assesment_backend.git
+cd xiacom_assesment_backend
+```
+
+Then follow **Run locally** below (from the repo root). Copy **`.env.example`** to **`.env`** and set **`MONGO_URI`** and **`JWT_SECRET`** before `npm run dev`.
+
+---
+
 Node and Express service for signup/login and protected candidate submissions. MongoDB holds users and submitted candidates; Multer writes uploads to disk under `uploads/`.
 
 ## What it does
